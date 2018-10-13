@@ -44,12 +44,9 @@ header{
     
 }
 
-.section-header{
-    
-   
+section{
+    height: calc(var(--vh, 1vh) * 100);
 }
-
-
 nav img {
 
     padding: 20px 0;
@@ -786,13 +783,15 @@ input[type=button]:active{
     background-image: url("https://res.cloudinary.com/dhtqkszzc/image/upload/c_scale,w_480/v1537234315/Background_v4trvh.png");
     background-size: cover;
     background-position:center;
-    height:100vh;
+//    height:100vh;
+     height: 320px;
     margin: 0;
     color: #00BFB1;
     padding:0 5%;
     
         
     } 
+    
     .hero-btn{
          padding:0 2%;
     }
@@ -802,6 +801,9 @@ input[type=button]:active{
         height: 250px;
     }
     
+    section{
+        height: 320px;
+    }
     .hero hr{
     
     border-top: 3px solid #00BFB1;
@@ -1101,6 +1103,9 @@ input:focus ~ .highlight {
   .tab-panel p {
     margin: 20px;}
 
+    section{
+        height: 320px;
+    }
   
 }
 
@@ -1151,12 +1156,15 @@ input[type=button]:active{
     background-size: cover;
     background-position:top;
     height:100vh;
+   // height: calc(var(--vh, 1vh) * 100);
     margin: 0;
     color: skyblue;
     padding:0 2%;
     
         
     } 
+    
+   
     .hero-btn{
          padding:0 2%;
     }
@@ -1176,7 +1184,9 @@ input[type=button]:active{
     height:5px;
     margin:20px 0;
 }
-  
+   section{
+        height: 480px;
+    }
     
     .hero h2{
     
